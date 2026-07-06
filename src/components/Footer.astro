@@ -1,11 +1,12 @@
 ---
 import Logo from './Logo.astro';
-import { t, type Lang } from '../i18n/utils';
+import { t, localePath, type Lang } from '../i18n/utils';
 
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
+const home = localePath(lang);
 ---
 <footer id="contact">
   <div class="wrap top">
@@ -19,9 +20,9 @@ const { lang } = Astro.props;
     <div class="cols">
       <div class="col">
         <div class="col-h">{t(lang, 'footer.product')}</div>
-        <a href="#features">{t(lang, 'footer.product_links.features')}</a>
-        <a href="#showcase">{t(lang, 'footer.product_links.app')}</a>
-        <a href="#how">{t(lang, 'footer.product_links.how')}</a>
+        <a href={`${home}#features`}>{t(lang, 'footer.product_links.features')}</a>
+        <a href={`${home}#showcase`}>{t(lang, 'footer.product_links.app')}</a>
+        <a href={`${home}#how`}>{t(lang, 'footer.product_links.how')}</a>
       </div>
       <div class="col">
         <div class="col-h">{t(lang, 'footer.company')}</div>

@@ -10,8 +10,7 @@ const { lang } = Astro.props;
 ---
 <header class="hero wrap">
   <div class="hero-glow"></div>
-  <div style="position:relative; z-index:2;">
-    <div class="kicker"><span class="dot"></span><span>{t(lang, 'hero.badge')}</span></div>
+  <div style="position:relative; z-index:2; transform:translateY(-30px);">
     <h1>{t(lang, 'hero.title_1')}<br>{t(lang, 'hero.title_2')} <span class="g">{t(lang, 'hero.title_accent')}</span></h1>
     <p class="lead">{t(lang, 'hero.lead')}</p>
     <div class="store-row">
@@ -32,7 +31,7 @@ const { lang } = Astro.props;
       <div><div class="num">{t(lang, 'hero.stats.rating_value')}<span style="color:var(--color-brand-gold); font-size:18px;"> ★</span></div><div class="lbl">{t(lang, 'hero.stats.rating_label')}</div></div>
     </div>
   </div>
-  <div style="position:relative; z-index:2; display:flex; justify-content:center;">
+  <div style="position:relative; z-index:2; display:flex; justify-content:center; transform:translateY(-10px);">
     <div style="position:absolute; width:340px; height:340px; background:radial-gradient(circle, rgba(20,241,149,.2), transparent 62%); animation:gaiwGlow 4s ease-in-out infinite;"></div>
     <div style="position:relative; animation:gaiwFloat 6s ease-in-out infinite;">
       <div class="phone-shell"><div class="screen"><Image src={homeShot} alt={t(lang, 'showcase.slides.0.title')} width={290} densities={[1, 2, 3]} /></div></div>
