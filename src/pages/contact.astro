@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+---
+<BaseLayout
+  lang="en"
+  title="Contact | GymAI Club"
+  description="Contact GymAI Club."
+>
+  <Nav lang="en" />
+  <main class="info-page wrap">
+    <section class="info-hero">
+      <div class="sec-kicker">CONTACT</div>
+      <h1>Contact GymAI Club</h1>
+      <p>For support, partnerships, privacy questions, or general inquiries, reach us by email.</p>
+    </section>
+
+    <section class="info-card">
+      <div class="info-row">
+        <span class="info-label">Email</span>
+        <a class="info-value" href="mailto:gymaiclub01@gmail.com">gymaiclub01@gmail.com</a>
+      </div>
+    </section>
+  </main>
+  <Footer lang="en" />
+</BaseLayout>

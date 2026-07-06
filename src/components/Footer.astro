@@ -26,8 +26,8 @@ const { lang } = Astro.props;
       <div class="col">
         <div class="col-h">{t(lang, 'footer.company')}</div>
         <a href="#">{t(lang, 'footer.company_links.about')}</a>
-        <a href="#">{t(lang, 'footer.company_links.privacy')}</a>
-        <a href="#">{t(lang, 'footer.company_links.contact')}</a>
+        <a href="/privacy/">{t(lang, 'footer.company_links.privacy')}</a>
+        <a href="/contact/">{t(lang, 'footer.company_links.contact')}</a>
       </div>
     </div>
   </div>

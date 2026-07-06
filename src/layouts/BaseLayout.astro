@@ -4,11 +4,13 @@ import { t, languages, localePath, type Lang } from '../i18n/utils';
 
 interface Props {
   lang: Lang;
+  title?: string;
+  description?: string;
 }
-const { lang } = Astro.props;
+const { lang, title: pageTitle, description: pageDescription } = Astro.props;
 
-const title = t(lang, 'meta.title');
-const description = t(lang, 'meta.description');
+const title = pageTitle ?? t(lang, 'meta.title');
+const description = pageDescription ?? t(lang, 'meta.description');
 const locales = Object.keys(languages) as Lang[];
 ---
 <!doctype html>

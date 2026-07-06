@@ -4,8 +4,9 @@
 
 Bu proje Astro 7 ile gelistirilmis, cok dilli bir GymAI Club landing page sitesidir. Site tek ana sayfa deneyimi uzerine kuruludur ve 4 dil destekler:
 
-- Turkce: `/`
-- English: `/en/`
+- English: `/`
+- Turkce: `/tr/`
+- English alternatif/eski uyumluluk: `/en/`
 - Русский: `/ru/`
 - Espanol: `/es/`
 
@@ -30,9 +31,9 @@ Node gereksinimi: `>=22.12.0`.
 
 Astro ayarlarini tanimlar.
 
-- Varsayilan dil: `tr`
-- Desteklenen diller: `tr`, `en`, `ru`, `es`
-- Turkce varsayilan dil oldugu icin `/tr/` yerine `/` kullaniliyor.
+- Varsayilan dil: `en`
+- Desteklenen diller: `en`, `tr`, `ru`, `es`
+- Ingilizce varsayilan dil oldugu icin `/en/` yerine ana yol `/` kullaniliyor.
 - Tailwind Vite plugin'i aktif.
 
 ### `tsconfig.json`
@@ -43,11 +44,15 @@ TypeScript/Astro tip ayarlari icin kullanilir.
 
 ### `src/pages/index.astro`
 
-Turkce ana sayfadir. `HomePage` component'ini `lang="tr"` ile cagirir.
+Ingilizce ana sayfadir. `HomePage` component'ini `lang="en"` ile cagirir.
 
 ### `src/pages/en/index.astro`
 
-Ingilizce ana sayfadir. `HomePage` component'ini `lang="en"` ile cagirir.
+Ingilizce alternatif/eski uyumluluk sayfasidir. `HomePage` component'ini `lang="en"` ile cagirir.
+
+### `src/pages/tr/index.astro`
+
+Turkce ana sayfadir. `HomePage` component'ini `lang="tr"` ile cagirir.
 
 ### `src/pages/ru/index.astro`
 
@@ -255,7 +260,7 @@ Icerigi:
 
 - Dil listesi: `tr`, `en`, `ru`, `es`
 - Bayrak listesi
-- Varsayilan dil: `tr`
+- Varsayilan dil: `en`
 - Tum JSON sozluklerini import eder.
 - `t(lang, key)` fonksiyonu ile ceviri metinlerini dot-path ile ceker.
 - `localePath(lang)` fonksiyonu ile dil URL'lerini uretir.
@@ -396,10 +401,9 @@ Sitenin ana pazarlama mesajlari:
 
 ## Dosya Sayisi Ozeti
 
-- Sayfa dosyalari: 4
+- Sayfa dosyalari: 5
 - Component dosyalari: 11
 - Dil JSON dosyalari: 4
 - Stil dosyasi: 1
 - Uygulama ekran gorselleri: 6
 - Public favicon dosyalari: 2
-

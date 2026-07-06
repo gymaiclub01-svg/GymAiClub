@@ -4,22 +4,22 @@ import ru from './ru.json';
 import es from './es.json';
 
 export const languages = {
-  tr: 'Türkçe',
   en: 'English',
+  tr: 'Türkçe',
   ru: 'Русский',
   es: 'Español'
 } as const;
 
 export const languageFlags = {
-  tr: '🇹🇷',
   en: '🇬🇧',
+  tr: '🇹🇷',
   ru: '🇷🇺',
   es: '🇪🇸'
 } as const;
 
 export type Lang = keyof typeof languages;
 
-export const defaultLang: Lang = 'tr';
+export const defaultLang: Lang = 'en';
 
 const dictionaries = { tr, en, ru, es } as const;
 
