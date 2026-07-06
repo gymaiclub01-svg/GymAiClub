@@ -1,0 +1,35 @@
+---
+import Logo from './Logo.astro';
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+---
+<footer id="contact">
+  <div class="wrap top">
+    <div style="max-width:300px;">
+      <div style="display:flex; align-items:center; gap:11px; margin-bottom:16px;">
+        <Logo size={30} glow={false} />
+        <span class="brand" style="font-size:19px;">gym<span class="ai">ai</span>club</span>
+      </div>
+      <p style="font-size:14px; line-height:1.6; color:var(--color-brand-t3); font-weight:500;">{t(lang, 'footer.tagline')}</p>
+    </div>
+    <div class="cols">
+      <div class="col">
+        <div class="col-h">{t(lang, 'footer.product')}</div>
+        <a href="#features">{t(lang, 'footer.product_links.features')}</a>
+        <a href="#showcase">{t(lang, 'footer.product_links.app')}</a>
+        <a href="#how">{t(lang, 'footer.product_links.how')}</a>
+      </div>
+      <div class="col">
+        <div class="col-h">{t(lang, 'footer.company')}</div>
+        <a href="#">{t(lang, 'footer.company_links.about')}</a>
+        <a href="#">{t(lang, 'footer.company_links.privacy')}</a>
+        <a href="#">{t(lang, 'footer.company_links.contact')}</a>
+      </div>
+    </div>
+  </div>
+  <div class="copy">{t(lang, 'footer.copyright')}</div>
+</footer>

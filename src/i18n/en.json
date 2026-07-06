@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "GymAI Club — AI-Powered Fitness Coach",
+    "description": "GymAI Club analyzes your movement in real time through your camera, corrects your form and builds workout plans made just for you. No equipment, no gym — just you and your AI coach."
+  },
+  "nav": {
+    "features": "Features",
+    "app": "The App",
+    "how": "How It Works",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "AI-POWERED FITNESS COACH",
+    "title_1": "Let AI read",
+    "title_2": "your",
+    "title_accent": "every rep.",
+    "lead": "GymAI Club analyzes your movement in real time through your camera, corrects your form and builds workout plans made just for you. No equipment, no gym — just you and your AI coach.",
+    "download_label": "DOWNLOAD ON",
+    "stats": {
+      "exercises_value": "18+",
+      "exercises_label": "Exercises",
+      "accuracy_value": "97%",
+      "accuracy_label": "Form accuracy",
+      "rating_value": "4.9",
+      "rating_label": "User rating"
+    }
+  },
+  "marquee": [
+    "REAL-TIME FORM ANALYSIS",
+    "GEMINI & CLAUDE AI",
+    "PERSONAL PLANS",
+    "VOICE COACH",
+    "COMMUNITY & LEADERBOARD",
+    "BADGE SYSTEM"
+  ],
+  "features": {
+    "kicker": "FEATURES",
+    "heading": "Everything a pocket coach can do",
+    "camera": {
+      "title": "Invisible AI Camera",
+      "desc": "Your camera feed stays clean — no skeleton overlay. The AI analyzes your movement in the background, counts your reps and instantly calls out cues like \"Keep your back straight!\" the moment your form slips.",
+      "tag_1": "Automatic rep counting",
+      "tag_2": "Voice coach",
+      "tag_3": "Landscape mode"
+    },
+    "plans": {
+      "title": "Personal Plans",
+      "desc": "Enter your goal, level and any injury notes — the AI generates a weekly program made just for you."
+    },
+    "community": {
+      "title": "Community & Leaderboard",
+      "desc": "Stay motivated with a weekly leaderboard podium, a friends feed and unlockable badges."
+    },
+    "progress": {
+      "title": "Progress Tracking",
+      "desc": "Measure every rep and every calorie with your streak, calendar and daily summaries."
+    },
+    "chat": {
+      "title": "AI Chat Coach",
+      "desc": "Ask your AI coach anything about nutrition and training, and get an instant answer."
+    }
+  },
+  "showcase": {
+    "kicker": "APP SHOWCASE",
+    "heading": "A look inside",
+    "sub": "Real app screens — swipe to explore.",
+    "slides": [
+      {
+        "img": "home",
+        "kicker": "COMMAND CENTER",
+        "title": "Home",
+        "desc": "Water tracking, calories, daily activity, your active plan and your streak — all on one screen. Your AI coach is one tap away."
+      },
+      {
+        "img": "plans",
+        "kicker": "PLANS",
+        "title": "Workout Plans",
+        "desc": "Build your own plan or pick a goal and let the AI craft it. Ready-made templates from beginner to pro."
+      },
+      {
+        "img": "library",
+        "kicker": "18 MOVES",
+        "title": "Exercise Library",
+        "desc": "18 exercises with target muscles and difficulty levels. Start with the AI camera in a single tap."
+      },
+      {
+        "img": "plans-tr",
+        "kicker": "YOUR PLANS",
+        "title": "Profile",
+        "desc": "Follow your weekly program, check off your days and watch your progress. Every plan is made for you."
+      },
+      {
+        "img": "camera",
+        "kicker": "LIVE AI TRACKING",
+        "title": "Smart Camera",
+        "desc": "Your AI camera analyzes your movement in real time, counts your reps and corrects your form on the spot."
+      }
+    ]
+  },
+  "how": {
+    "kicker": "HOW IT WORKS",
+    "heading": "Start in three steps",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Pick your goal",
+        "desc": "Fat loss, strength or core — set your goal and level, and let the AI build your plan."
+      },
+      {
+        "num": "02",
+        "title": "Open the camera",
+        "desc": "Set your phone in front of you. The AI analyzes your movement, counts reps and corrects your form."
+      },
+      {
+        "num": "03",
+        "title": "Track your progress",
+        "desc": "Keep your streak, earn badges and claim your spot in the community. Every workout rewards you."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Your AI coach is waiting.",
+    "sub": "Download today and finish your first workout with AI.",
+    "download_label": "DOWNLOAD ON"
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "heading": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How does the AI camera work?",
+        "a": "Your phone camera analyzes your movement in real time. There's no skeleton overlay on screen — just a clean camera feed and a rep counter. When your form slips, you get an audio and visual cue."
+      },
+      {
+        "q": "Do I need a gym membership or equipment?",
+        "a": "No. GymAI Club focuses on bodyweight exercises. Equipment-based moves are available too, but all you need to start is your phone."
+      },
+      {
+        "q": "Is my data safe?",
+        "a": "Camera analysis runs on your device; your footage is never uploaded to a server. Only your workout stats are stored in your account."
+      },
+      {
+        "q": "Is it free?",
+        "a": "Core features are free. Premium unlocks advanced AI plans, unlimited camera analysis and exclusive badges."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "The AI-powered biomechanics fitness club. Read your form, push past your limits.",
+    "product": "PRODUCT",
+    "product_links": {
+      "features": "Features",
+      "app": "The App",
+      "how": "How It Works"
+    },
+    "company": "COMPANY",
+    "company_links": {
+      "about": "About",
+      "privacy": "Privacy",
+      "contact": "Contact"
+    },
+    "copyright": "© 2026 GymAI Club · AI Biomechanics Club. All rights reserved."
+  }
+}

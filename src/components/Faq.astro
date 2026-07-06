@@ -1,0 +1,36 @@
+---
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const items = t(lang, 'faq.items') as { q: string; a: string }[];
+---
+<section id="faq" class="wrap faq" style="padding-bottom:100px;">
+  <div class="sec-head">
+    <div class="sec-kicker">{t(lang, 'faq.kicker')}</div>
+    <h2 style="font-size:40px;">{t(lang, 'faq.heading')}</h2>
+  </div>
+  <div data-faq-list>
+    {items.map((item) => (
+      <div class="faq-item" data-faq-item>
+        <div class="faq-q">
+          <span>{item.q}</span>
+          <span class="faq-sign" data-faq-sign>+</span>
+        </div>
+        <p class="faq-a">{item.a}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('[data-faq-item]').forEach((item) => {
+    item.addEventListener('click', () => {
+      const open = item.classList.toggle('open');
+      const sign = item.querySelector('[data-faq-sign]');
+      if (sign) sign.textContent = open ? '−' : '+';
+    });
+  });
+</script>

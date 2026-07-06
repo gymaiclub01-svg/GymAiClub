@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "GymAI Club — Entrenador de fitness con IA",
+    "description": "GymAI Club analiza tus movimientos en tiempo real a través de la cámara, corrige tu técnica y crea planes de entrenamiento hechos para ti. Sin equipo, sin gimnasio: solo tú y tu entrenador con IA."
+  },
+  "nav": {
+    "features": "Funciones",
+    "app": "La App",
+    "how": "Cómo funciona",
+    "faq": "Preguntas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "ENTRENADOR DE FITNESS CON IA",
+    "title_1": "Deja que la IA lea",
+    "title_2": "cada",
+    "title_accent": "repetición.",
+    "lead": "GymAI Club analiza tus movimientos en tiempo real a través de la cámara, corrige tu técnica y crea planes de entrenamiento hechos para ti. Sin equipo, sin gimnasio: solo tú y tu entrenador con IA.",
+    "download_label": "DESCARGA EN",
+    "stats": {
+      "exercises_value": "18+",
+      "exercises_label": "Ejercicios",
+      "accuracy_value": "97%",
+      "accuracy_label": "Precisión de técnica",
+      "rating_value": "4.9",
+      "rating_label": "Valoración de usuarios"
+    }
+  },
+  "marquee": [
+    "ANÁLISIS DE TÉCNICA EN TIEMPO REAL",
+    "GEMINI Y CLAUDE AI",
+    "PLANES PERSONALES",
+    "ENTRENADOR DE VOZ",
+    "COMUNIDAD Y CLASIFICACIÓN",
+    "SISTEMA DE INSIGNIAS"
+  ],
+  "features": {
+    "kicker": "FUNCIONES",
+    "heading": "Todo lo que puede hacer un entrenador de bolsillo",
+    "camera": {
+      "title": "Cámara con IA invisible",
+      "desc": "La imagen de tu cámara se mantiene limpia, sin esqueleto superpuesto. La IA analiza tu movimiento en segundo plano, cuenta tus repeticiones y te avisa al instante con frases como «¡Mantén la espalda recta!» en cuanto tu técnica falla.",
+      "tag_1": "Conteo automático de repeticiones",
+      "tag_2": "Entrenador de voz",
+      "tag_3": "Modo horizontal"
+    },
+    "plans": {
+      "title": "Planes personales",
+      "desc": "Indica tu objetivo, nivel y notas de lesiones, y la IA generará un programa semanal hecho para ti."
+    },
+    "community": {
+      "title": "Comunidad y clasificación",
+      "desc": "Mantén la motivación con el podio semanal, el feed de amigos e insignias por desbloquear."
+    },
+    "progress": {
+      "title": "Seguimiento del progreso",
+      "desc": "Mide cada repetición y cada caloría con tu racha, el calendario y los resúmenes diarios."
+    },
+    "chat": {
+      "title": "Entrenador de chat con IA",
+      "desc": "Pregunta a tu entrenador con IA lo que quieras sobre nutrición y entrenamiento y recibe una respuesta al instante."
+    }
+  },
+  "showcase": {
+    "kicker": "VISTA DE LA APP",
+    "heading": "Una mirada por dentro",
+    "sub": "Pantallas reales de la app: desliza para explorar.",
+    "slides": [
+      {
+        "img": "home",
+        "kicker": "CENTRO DE MANDO",
+        "title": "Inicio",
+        "desc": "Control de agua, calorías, actividad diaria, tu plan activo y tu racha, todo en una pantalla. Tu entrenador con IA a un toque de distancia."
+      },
+      {
+        "img": "plans",
+        "kicker": "PLANES",
+        "title": "Planes de entrenamiento",
+        "desc": "Crea tu propio plan o elige un objetivo y deja que la IA lo prepare. Plantillas listas de principiante a pro."
+      },
+      {
+        "img": "library",
+        "kicker": "18 MOVIMIENTOS",
+        "title": "Biblioteca de ejercicios",
+        "desc": "18 ejercicios con músculos objetivo y niveles de dificultad. Empieza con la cámara de IA en un solo toque."
+      },
+      {
+        "img": "plans-tr",
+        "kicker": "TUS PLANES",
+        "title": "Perfil",
+        "desc": "Sigue tu programa semanal, marca tus días y observa tu progreso. Cada plan está hecho para ti."
+      },
+      {
+        "img": "camera",
+        "kicker": "SEGUIMIENTO IA EN VIVO",
+        "title": "Cámara inteligente",
+        "desc": "Tu cámara con IA analiza tu movimiento en tiempo real, cuenta tus repeticiones y corrige tu forma al instante."
+      }
+    ]
+  },
+  "how": {
+    "kicker": "CÓMO FUNCIONA",
+    "heading": "Empieza en tres pasos",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Elige tu objetivo",
+        "desc": "Pérdida de grasa, fuerza o core: define tu objetivo y nivel, y deja que la IA cree tu plan."
+      },
+      {
+        "num": "02",
+        "title": "Abre la cámara",
+        "desc": "Coloca el teléfono frente a ti. La IA analiza tus movimientos, cuenta repeticiones y corrige tu técnica."
+      },
+      {
+        "num": "03",
+        "title": "Sigue tu progreso",
+        "desc": "Mantén tu racha, gana insignias y reclama tu lugar en la comunidad. Cada entrenamiento te recompensa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Tu entrenador con IA te espera.",
+    "sub": "Descárgala hoy y completa tu primer entrenamiento con IA.",
+    "download_label": "DESCARGA EN"
+  },
+  "faq": {
+    "kicker": "PREGUNTAS",
+    "heading": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cómo funciona la cámara con IA?",
+        "a": "La cámara de tu teléfono analiza tus movimientos en tiempo real. No hay esqueleto superpuesto en pantalla, solo una imagen limpia y un contador de repeticiones. Cuando tu técnica falla, recibes un aviso sonoro y visual."
+      },
+      {
+        "q": "¿Necesito gimnasio o equipo?",
+        "a": "No. GymAI Club se centra en ejercicios con el propio peso corporal. También hay movimientos con equipo, pero para empezar solo necesitas tu teléfono."
+      },
+      {
+        "q": "¿Mis datos están seguros?",
+        "a": "El análisis de la cámara se ejecuta en tu dispositivo; tus imágenes nunca se suben a un servidor. Solo se guardan tus estadísticas de entrenamiento en tu cuenta."
+      },
+      {
+        "q": "¿Es gratis?",
+        "a": "Las funciones básicas son gratuitas. Premium desbloquea planes de IA avanzados, análisis de cámara ilimitado e insignias exclusivas."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "El club de fitness biomecánico con IA. Lee tu técnica, supera tus límites.",
+    "product": "PRODUCTO",
+    "product_links": {
+      "features": "Funciones",
+      "app": "La App",
+      "how": "Cómo funciona"
+    },
+    "company": "EMPRESA",
+    "company_links": {
+      "about": "Nosotros",
+      "privacy": "Privacidad",
+      "contact": "Contacto"
+    },
+    "copyright": "© 2026 GymAI Club · AI Biomechanics Club. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "GymAI Club — Yapay Zekâ Destekli Fitness Koçu",
+    "description": "GymAI Club kameran üzerinden hareketlerini gerçek zamanlı analiz eder, formunu düzeltir ve sana özel antrenman planları oluşturur. Ekipman yok, salon yok — sadece sen ve AI koçun."
+  },
+  "nav": {
+    "features": "Özellikler",
+    "app": "Uygulama",
+    "how": "Nasıl Çalışır",
+    "faq": "SSS",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "badge": "YAPAY ZEKÂ DESTEKLİ FITNESS KOÇU",
+    "title_1": "Formunu yapay",
+    "title_2": "zekâ",
+    "title_accent": "çözümlesin.",
+    "lead": "GymAI Club, kameran üzerinden hareketlerini gerçek zamanlı analiz eder, formunu düzeltir ve sana özel antrenman planları oluşturur. Ekipman yok, salon yok — sadece sen ve AI koçun.",
+    "download_label": "İNDİR",
+    "stats": {
+      "exercises_value": "18+",
+      "exercises_label": "Egzersiz",
+      "accuracy_value": "%97",
+      "accuracy_label": "Form doğruluğu",
+      "rating_value": "4.9",
+      "rating_label": "Kullanıcı puanı"
+    }
+  },
+  "marquee": [
+    "GERÇEK ZAMANLI FORM ANALİZİ",
+    "GEMINI & CLAUDE AI",
+    "KİŞİSEL PLANLAR",
+    "SESLİ KOÇ",
+    "TOPLULUK & LİDERLİK",
+    "ROZET SİSTEMİ"
+  ],
+  "features": {
+    "kicker": "ÖZELLİKLER",
+    "heading": "Bir cep koçunun yapabileceği her şey",
+    "camera": {
+      "title": "Görünmez AI Kamera",
+      "desc": "Kameran ekranda temiz kalır — iskelet çizimi yok. AI hareketini arka planda analiz eder, tekrarları sayar ve formun bozulduğunda anında \"Belini düz tut!\" gibi sesli uyarılar verir.",
+      "tag_1": "Otomatik tekrar sayımı",
+      "tag_2": "Sesli koç",
+      "tag_3": "Landscape mod"
+    },
+    "plans": {
+      "title": "Kişisel Planlar",
+      "desc": "Hedefini, seviyeni ve sakatlık notlarını gir — AI sana özel haftalık program üretsin."
+    },
+    "community": {
+      "title": "Topluluk & Liderlik",
+      "desc": "Haftalık liderlik podyumu, arkadaş akışı ve rozetlerle motivasyonunu yüksek tut."
+    },
+    "progress": {
+      "title": "İlerleme Takibi",
+      "desc": "Ateş serisi, takvim ve günlük özetlerle her tekrarı, her kaloriyi ölç."
+    },
+    "chat": {
+      "title": "AI Sohbet Koçu",
+      "desc": "Beslenme ve antrenman sorularını yapay zekâ koçuna sor, anında yanıt al."
+    }
+  },
+  "showcase": {
+    "kicker": "UYGULAMA TANITIMI",
+    "heading": "İçeriden bir bakış",
+    "sub": "Gerçek uygulama ekranları — kaydırarak keşfet.",
+    "slides": [
+      {
+        "img": "home",
+        "kicker": "KOMUTA MERKEZİ",
+        "title": "Ana Sayfa",
+        "desc": "Su takibi, kalori, günlük aktivite, aktif planın ve ateş serin — hepsi tek ekranda. Yapay zekâ koçun bir dokunuş uzağında."
+      },
+      {
+        "img": "plans",
+        "kicker": "PLANLAR",
+        "title": "Antrenman Planları",
+        "desc": "Kendi planını oluştur ya da hedefini seç, AI senin için hazırlasın. Başlangıçtan pro seviyeye hazır şablonlar."
+      },
+      {
+        "img": "library",
+        "kicker": "18 HAREKET",
+        "title": "Egzersiz Kütüphanesi",
+        "desc": "Hedef kasları ve zorluk seviyesiyle 18 egzersiz. Tek dokunuşla AI kamerayla başla."
+      },
+      {
+        "img": "plans-tr",
+        "kicker": "SENİN PLANLARIN",
+        "title": "Profil",
+        "desc": "Haftalık programını takip et, günlerini işaretle, ilerlemeni gör. Her plan sana özel."
+      },
+      {
+        "img": "camera",
+        "kicker": "CANLI AI TAKİP",
+        "title": "Akıllı Kamera",
+        "desc": "AI kameran hareketlerini gerçek zamanlı analiz eder, tekrarlarını sayar ve formunu anında düzeltir."
+      }
+    ]
+  },
+  "how": {
+    "kicker": "NASIL ÇALIŞIR",
+    "heading": "Üç adımda başla",
+    "steps": [
+      { "num": "01", "title": "Hedefini seç", "desc": "Yağ yakımı, güç veya core — hedefini ve seviyeni belirle, AI planını hazırlasın." },
+      { "num": "02", "title": "Kamerayı aç", "desc": "Telefonu karşına koy. AI hareketlerini analiz eder, tekrarları sayar, formunu düzeltir." },
+      { "num": "03", "title": "İlerlemeni izle", "desc": "Serini koru, rozet kazan, toplulukta yerini al. Her antrenman seni ödüllendirir." }
+    ]
+  },
+  "cta": {
+    "title": "AI koçun seni bekliyor.",
+    "sub": "Bugün indir, ilk antrenmanını yapay zekâyla tamamla.",
+    "download_label": "İNDİR"
+  },
+  "faq": {
+    "kicker": "SSS",
+    "heading": "Sık sorulan sorular",
+    "items": [
+      { "q": "AI kamera nasıl çalışıyor?", "a": "Telefon kameran hareketlerini gerçek zamanlı analiz eder. Ekranda iskelet çizimi görünmez — sadece temiz kamera görüntüsü ve tekrar sayacı. Formun bozulduğunda sesli ve görsel uyarı alırsın." },
+      { "q": "Salon üyeliği veya ekipman gerekli mi?", "a": "Hayır. GymAI Club vücut ağırlığı egzersizlerine odaklanır. İstersen ekipmanlı hareketler de mevcut, ama başlamak için sadece telefonun yeterli." },
+      { "q": "Verilerim güvende mi?", "a": "Kamera analizi cihazında çalışır; görüntülerin sunucuya yüklenmez. Sadece antrenman istatistiklerin hesabında saklanır." },
+      { "q": "Ücretsiz mi?", "a": "Temel özellikler ücretsiz. Premium üyelik gelişmiş AI planlarını, sınırsız kamera analizini ve özel rozetleri açar." }
+    ]
+  },
+  "footer": {
+    "tagline": "Yapay zekâ destekli biyomekanik fitness kulübü. Formunu çözümle, sınırlarını aş.",
+    "product": "ÜRÜN",
+    "product_links": { "features": "Özellikler", "app": "Uygulama", "how": "Nasıl Çalışır" },
+    "company": "KURUMSAL",
+    "company_links": { "about": "Hakkımızda", "privacy": "Gizlilik", "contact": "İletişim" },
+    "copyright": "© 2026 GymAI Club · AI Biomechanics Club. Tüm hakları saklıdır."
+  }
+}

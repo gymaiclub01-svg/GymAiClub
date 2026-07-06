@@ -1,0 +1,99 @@
+---
+import { Image } from 'astro:assets';
+import { t, type Lang } from '../i18n/utils';
+import homeShot from '../assets/screenshots/home.png';
+import plansShot from '../assets/screenshots/plans.png';
+import libraryShot from '../assets/screenshots/library.png';
+import plansTrShot from '../assets/screenshots/plans-tr.png';
+import cameraShot from '../assets/screenshots/camera.png';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+
+const images: Record<string, ImageMetadata> = {
+  home: homeShot,
+  plans: plansShot,
+  library: libraryShot,
+  'plans-tr': plansTrShot,
+  camera: cameraShot,
+};
+
+type Slide = { img: string; kicker: string; title: string; desc: string };
+const slides = t(lang, 'showcase.slides') as Slide[];
+const captions = slides.map(({ kicker, title, desc }) => ({ kicker, title, desc }));
+---
+<section id="showcase" class="wrap">
+  <div class="sec-head">
+    <div class="sec-kicker">{t(lang, 'showcase.kicker')}</div>
+    <h2>{t(lang, 'showcase.heading')}</h2>
+    <p style="font-size:16.5px; color:var(--color-brand-t2); margin-top:16px; font-weight:500;">{t(lang, 'showcase.sub')}</p>
+  </div>
+
+  <div class="stage">
+    <div class="stage-glow"></div>
+    <div class="navbtn" data-prev>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </div>
+    <div class="stage-inner">
+      <div class="stage-phone">
+        <div class="screen">
+          {slides.map((s, i) => (
+            <Image
+              src={images[s.img]}
+              alt={s.title}
+              width={300}
+              densities={[1, 2, 3]}
+              class={i === 0 ? 'on' : ''}
+              data-slide-img
+              data-index={i}
+            />
+          ))}
+        </div>
+      </div>
+      <div class="cap">
+        <div class="ck" data-cap-kicker>{captions[0].kicker}</div>
+        <h3 data-cap-title>{captions[0].title}</h3>
+        <p data-cap-desc>{captions[0].desc}</p>
+      </div>
+    </div>
+    <div class="navbtn" data-next>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+    </div>
+  </div>
+
+  <div class="dots">
+    {slides.map((_, i) => (
+      <div class={`dot2${i === 0 ? ' on' : ''}`} data-dot data-index={i}></div>
+    ))}
+  </div>
+</section>
+
+<script define:vars={{ captions }}>
+  let active = 0;
+  const dots = [...document.querySelectorAll('[data-dot]')];
+  const imgs = [...document.querySelectorAll('[data-slide-img]')];
+  const capKicker = document.querySelector('[data-cap-kicker]');
+  const capTitle = document.querySelector('[data-cap-title]');
+  const capDesc = document.querySelector('[data-cap-desc]');
+
+  function render() {
+    const s = captions[active];
+    capKicker.textContent = s.kicker;
+    capTitle.textContent = s.title;
+    capDesc.textContent = s.desc;
+    dots.forEach((el, i) => el.classList.toggle('on', i === active));
+    imgs.forEach((el, i) => el.classList.toggle('on', i === active));
+  }
+
+  dots.forEach((el, i) => el.addEventListener('click', () => { active = i; render(); }));
+  document.querySelector('[data-next]')?.addEventListener('click', () => {
+    active = (active + 1) % captions.length;
+    render();
+  });
+  document.querySelector('[data-prev]')?.addEventListener('click', () => {
+    active = (active - 1 + captions.length) % captions.length;
+    render();
+  });
+</script>

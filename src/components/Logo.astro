@@ -1,0 +1,19 @@
+---
+interface Props {
+  size?: number;
+  glow?: boolean;
+}
+const { size = 34, glow = true } = Astro.props;
+---
+<svg viewBox="0 0 64 64" width={size} height={size} fill="none"
+  style={`color:var(--color-brand-green); ${glow ? 'filter:drop-shadow(0 0 7px rgba(20,241,149,.55));' : ''}`}>
+  <circle cx="32" cy="32" r="29" stroke="currentColor" stroke-width="1.7"/>
+  <path d="M18.4 32 L10.8 22 M18.4 32 L10.8 42 M45.6 32 L53.2 22 M45.6 32 L53.2 42" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+  <rect x="18.4" y="30.8" width="27.2" height="2.4" rx="1.2" fill="currentColor"/>
+  <circle cx="18.4" cy="32" r="3.6" fill="currentColor"/>
+  <circle cx="45.6" cy="32" r="3.6" fill="currentColor"/>
+  <circle cx="10.8" cy="22" r="2.6" fill="#fff"/>
+  <circle cx="10.8" cy="42" r="2.6" fill="#fff"/>
+  <circle cx="53.2" cy="22" r="2.6" fill="#fff"/>
+  <circle cx="53.2" cy="42" r="2.6" fill="#fff"/>
+</svg>

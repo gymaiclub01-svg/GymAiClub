@@ -1,0 +1,38 @@
+---
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+---
+<section id="download" class="wrap" style="padding-bottom:100px;">
+  <div class="cta-box">
+    <div class="cglow"></div>
+    <div style="position:relative; z-index:2;">
+      <svg viewBox="0 0 64 64" width="60" height="60" fill="none" style="color:var(--color-brand-green); filter:drop-shadow(0 0 14px rgba(20,241,149,.7)); margin-bottom:24px;">
+        <circle cx="32" cy="32" r="29" stroke="currentColor" stroke-width="1.7"/>
+        <path d="M18.4 32 L10.8 22 M18.4 32 L10.8 42 M45.6 32 L53.2 22 M45.6 32 L53.2 42" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        <rect x="18.4" y="30.8" width="27.2" height="2.4" rx="1.2" fill="currentColor"/>
+        <circle cx="18.4" cy="32" r="3.6" fill="currentColor"/>
+        <circle cx="45.6" cy="32" r="3.6" fill="currentColor"/>
+        <circle cx="10.8" cy="22" r="2.6" fill="#fff"/>
+        <circle cx="10.8" cy="42" r="2.6" fill="#fff"/>
+        <circle cx="53.2" cy="22" r="2.6" fill="#fff"/>
+        <circle cx="53.2" cy="42" r="2.6" fill="#fff"/>
+      </svg>
+      <h2>{t(lang, 'cta.title')}</h2>
+      <p>{t(lang, 'cta.sub')}</p>
+      <div class="store-row" style="justify-content:center;">
+        <a href="#top" class="store-btn btn-hover" style="background:#fff; color:#06140C; padding:15px 26px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#06140C"><path d="M16 1c-1 0-2.5.7-3.4 1.7-.8.9-1.4 2.2-1.2 3.4 1.1.1 2.5-.6 3.3-1.6.8-.9 1.4-2.2 1.3-3.5zM20.5 17c-.5 1.2-1.1 2.3-1.9 3.3-.9 1.2-1.8 2.4-3.2 2.4-1.3 0-1.8-.8-3.3-.8s-2 .8-3.3.8c-1.4 0-2.4-1.3-3.3-2.5C2 18.4 1 14.4 2.8 11.5c.9-1.5 2.4-2.4 4-2.4 1.3 0 2.4.9 3.3.9.8 0 2.2-1 3.7-.9.6 0 2.4.3 3.5 1.9-3.1 2-2.6 6.3.2 7.5z"/></svg>
+          <div style="text-align:left;"><small>{t(lang, 'cta.download_label')}</small><strong style="font-size:17px;">App Store</strong></div>
+        </a>
+        <a href="#top" class="store-btn btn-hover" style="background:var(--color-brand-green); color:#06140C; padding:15px 26px; box-shadow:0 0 30px rgba(20,241,149,.4);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3.5 2.5v19l11-9.5z" fill="#06140C"/><path d="M3.5 2.5l11 9.5 3.5-3z" fill="#06140C" opacity=".7"/><path d="M14.5 12l6-3.4 0 6.8z" fill="#06140C" opacity=".85"/></svg>
+          <div style="text-align:left;"><small>{t(lang, 'cta.download_label')}</small><strong style="font-size:17px;">Google Play</strong></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

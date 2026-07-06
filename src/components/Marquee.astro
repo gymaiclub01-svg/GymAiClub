@@ -1,0 +1,15 @@
+---
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const items = t(lang, 'marquee') as string[];
+const track = [...items, ...items];
+---
+<div class="marquee">
+  <div class="track">
+    {track.map((item) => <span>&bull; {item}</span>)}
+  </div>
+</div>

@@ -1,0 +1,38 @@
+---
+import { languages, languageFlags, localePath, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const locales = Object.keys(languages) as Lang[];
+---
+<details class="lang-switch">
+  <summary>
+    <span class="flag">{languageFlags[lang]}</span>
+    <span class="code">{lang.toUpperCase()}</span>
+    <svg class="chevron" width="10" height="6" viewBox="0 0 10 6" fill="none">
+      <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </summary>
+  <div class="lang-menu">
+    {locales.map((l) => (
+      <a href={localePath(l)} class={l === lang ? 'active' : ''} aria-current={l === lang ? 'page' : undefined}>
+        <span class="flag">{languageFlags[l]}</span>
+        <span>{languages[l]}</span>
+      </a>
+    ))}
+  </div>
+</details>
+
+<script>
+  document.querySelectorAll('details.lang-switch').forEach((el) => {
+    el.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      if (target.closest('a')) return;
+    });
+    document.addEventListener('click', (e) => {
+      if (!el.contains(e.target as Node)) el.removeAttribute('open');
+    });
+  });
+</script>

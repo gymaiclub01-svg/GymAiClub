@@ -1,0 +1,28 @@
+---
+import Logo from './Logo.astro';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+---
+<nav>
+  <div class="wrap inner">
+    <a href="#top" style="display:flex; align-items:center; gap:11px;">
+      <Logo />
+      <span class="brand">gym<span class="ai">ai</span>club</span>
+    </a>
+    <div class="nav-right">
+      <div class="navlinks">
+        <a href="#features">{t(lang, 'nav.features')}</a>
+        <a href="#showcase">{t(lang, 'nav.app')}</a>
+        <a href="#how">{t(lang, 'nav.how')}</a>
+        <a href="#faq">{t(lang, 'nav.faq')}</a>
+        <a href="#contact">{t(lang, 'nav.contact')}</a>
+      </div>
+      <LanguageSwitcher lang={lang} />
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,24 @@
+---
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const steps = t(lang, 'how.steps') as { num: string; title: string; desc: string }[];
+---
+<section id="how" class="wrap">
+  <div class="sec-head">
+    <div class="sec-kicker">{t(lang, 'how.kicker')}</div>
+    <h2>{t(lang, 'how.heading')}</h2>
+  </div>
+  <div class="how-grid">
+    {steps.map((step) => (
+      <div class="card">
+        <div class="step-num">{step.num}</div>
+        <h3>{step.title}</h3>
+        <p>{step.desc}</p>
+      </div>
+    ))}
+  </div>
+</section>
