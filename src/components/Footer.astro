@@ -1,6 +1,6 @@
 ---
 import Logo from './Logo.astro';
-import { t, localePath, type Lang } from '../i18n/utils';
+import { t, localePath, localizedPath, type Lang } from '../i18n/utils';
 
 interface Props {
   lang: Lang;
@@ -27,7 +27,7 @@ const home = localePath(lang);
       <div class="col">
         <div class="col-h">{t(lang, 'footer.company')}</div>
         <a href="#">{t(lang, 'footer.company_links.about')}</a>
-        <a href="/privacy/">{t(lang, 'footer.company_links.privacy')}</a>
+        <a href={localizedPath(lang, 'privacy')}>{t(lang, 'footer.company_links.privacy')}</a>
         <a href="/contact/">{t(lang, 'footer.company_links.contact')}</a>
       </div>
     </div>

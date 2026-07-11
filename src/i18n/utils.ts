@@ -33,3 +33,8 @@ export function t(lang: Lang, key: string): any {
 export function localePath(lang: Lang): string {
   return lang === defaultLang ? '/' : `/${lang}/`;
 }
+
+/** Path to a locale's static page (e.g. "privacy", "contact"), respecting prefixDefaultLocale: false */
+export function localizedPath(lang: Lang, slug: string): string {
+  return lang === defaultLang ? `/${slug}/` : `/${lang}/${slug}/`;
+}
