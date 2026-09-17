@@ -17,7 +17,7 @@ import Footer from '../components/Footer.astro';
     </section>
 
     <section class="info-card legal" aria-label="Privacy policy content area">
-      <div class="legal-updated">Last Updated: July 6, 2026</div>
+      <div class="legal-updated">Last updated: September 17, 2026</div>
 
       <p>At GymAI Club ("the App"), we care about your privacy. This Privacy Policy explains what data we collect while you use the App, how we use that data, and what rights you have.</p>
 
@@ -39,7 +39,9 @@ import Footer from '../components/Footer.astro';
       <p>If you grant permission, your workout progress and daily activity may be shared with the Apple Health app. This data is used solely to provide you with a personalized workout experience; it is not used for advertising or marketing purposes and is not shared with third parties.</p>
 
       <h3>2.5 AI-Powered Features</h3>
-      <p>The App uses a recommendation logic based on your goal, fitness level, and workout frequency to generate personalized workout plans. This process is performed entirely within the App; your data is not transmitted to a third-party AI service for this purpose.</p>
+      <p>The App uses a recommendation logic based on your goal, fitness level, and workout frequency to generate personalized workout plans. This process is performed entirely within the App; your workout data is not transmitted to a third-party AI service for this purpose. Camera-based rep counting also runs entirely on your device; the camera image never leaves your device.</p>
+      <p><strong>Calorie estimation in the Nutrition section is the exception, and it only works with your explicit consent.</strong> The meal you type is first looked up in the local food library on your device. If it is not found there and you have explicitly enabled this feature, <strong>only the meal text you typed</strong> (for example “2 slices of bread 3 eggs”) is sent through our server to our AI service provider Anthropic (Anthropic PBC, United States), and estimated calorie and macro values are returned. Your name, email address, user ID, weight, height, age, and any other health or identity data are not sent with this request, and the text sent is not linked to your account. <strong>The text sent is not used to train AI models.</strong> The service provider automatically deletes the text sent and the response returned within <strong>30 days</strong>. To avoid sending the same meal text repeatedly, estimation results are stored anonymously on our server.</p>
+      <p>We ask for this permission the first time the feature is used, and you can turn it off at any time from <strong>Settings → AI Calorie Estimation</strong>. While it is off, no data is sent and only on-device calculation is used. Calorie and macro values produced by AI are <strong>estimates</strong>, not medical or dietary advice.</p>
 
       <h3>2.6 Usage Data</h3>
       <p>Basic technical data (device model, operating system version, app version, crash reports) may be collected to ensure the App functions properly.</p>
@@ -56,6 +58,7 @@ import Footer from '../components/Footer.astro';
       <ul>
         <li>Where required by a legal obligation</li>
         <li>With subprocessors that are essential to providing the service (such as cloud infrastructure providers), limited strictly to operating the service</li>
+        <li>With your explicit consent, only the meal text you typed, with our AI service provider Anthropic (Anthropic PBC, United States), for calorie estimation (see Section 2.5)</li>
       </ul>
 
       <h2>5. Data Security</h2>
