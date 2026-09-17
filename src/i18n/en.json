@@ -85,7 +85,7 @@
         "desc": "18 exercises with target muscles and difficulty levels. Start with the AI camera in a single tap."
       },
       {
-        "img": "plans-tr",
+        "img": "profile",
         "kicker": "YOUR PLANS",
         "title": "Profile",
         "desc": "Follow your weekly program, check off your days and watch your progress. Every plan is made for you."
@@ -95,6 +95,12 @@
         "kicker": "LIVE AI TRACKING",
         "title": "Smart Camera",
         "desc": "Your AI camera analyzes your movement in real time, counts your reps and corrects your form on the spot."
+      },
+      {
+        "img": "camera-setup",
+        "kicker": "SETUP IN SECONDS",
+        "title": "Camera Setup",
+        "desc": "The app shows you where to place your phone and how to stand, so the AI reads every rep correctly from the very first set."
       }
     ]
   },

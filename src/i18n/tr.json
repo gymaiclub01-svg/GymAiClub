@@ -85,7 +85,7 @@
         "desc": "Hedef kasları ve zorluk seviyesiyle 18 egzersiz. Tek dokunuşla AI kamerayla başla."
       },
       {
-        "img": "plans-tr",
+        "img": "profile",
         "kicker": "SENİN PLANLARIN",
         "title": "Profil",
         "desc": "Haftalık programını takip et, günlerini işaretle, ilerlemeni gör. Her plan sana özel."
@@ -95,6 +95,12 @@
         "kicker": "CANLI AI TAKİP",
         "title": "Akıllı Kamera",
         "desc": "AI kameran hareketlerini gerçek zamanlı analiz eder, tekrarlarını sayar ve formunu anında düzeltir."
+      },
+      {
+        "img": "camera-setup",
+        "kicker": "SANİYELER İÇİNDE KURULUM",
+        "title": "Kamera Kurulumu",
+        "desc": "Uygulama telefonu nereye koyacağını ve nasıl duracağını gösterir; böylece AI ilk setten itibaren her tekrarı doğru okur."
       }
     ]
   },
@@ -102,9 +108,21 @@
     "kicker": "NASIL ÇALIŞIR",
     "heading": "Üç adımda başla",
     "steps": [
-      { "num": "01", "title": "Hedefini seç", "desc": "Yağ yakımı, güç veya core — hedefini ve seviyeni belirle, AI planını hazırlasın." },
-      { "num": "02", "title": "Kamerayı aç", "desc": "Telefonu karşına koy. AI hareketlerini analiz eder, tekrarları sayar, formunu düzeltir." },
-      { "num": "03", "title": "İlerlemeni izle", "desc": "Serini koru, rozet kazan, toplulukta yerini al. Her antrenman seni ödüllendirir." }
+      {
+        "num": "01",
+        "title": "Hedefini seç",
+        "desc": "Yağ yakımı, güç veya core — hedefini ve seviyeni belirle, AI planını hazırlasın."
+      },
+      {
+        "num": "02",
+        "title": "Kamerayı aç",
+        "desc": "Telefonu karşına koy. AI hareketlerini analiz eder, tekrarları sayar, formunu düzeltir."
+      },
+      {
+        "num": "03",
+        "title": "İlerlemeni izle",
+        "desc": "Serini koru, rozet kazan, toplulukta yerini al. Her antrenman seni ödüllendirir."
+      }
     ]
   },
   "cta": {
@@ -116,18 +134,38 @@
     "kicker": "SSS",
     "heading": "Sık sorulan sorular",
     "items": [
-      { "q": "AI kamera nasıl çalışıyor?", "a": "Telefon kameran hareketlerini gerçek zamanlı analiz eder. Ekranda iskelet çizimi görünmez — sadece temiz kamera görüntüsü ve tekrar sayacı. Formun bozulduğunda sesli ve görsel uyarı alırsın." },
-      { "q": "Salon üyeliği veya ekipman gerekli mi?", "a": "Hayır. GymAI Club vücut ağırlığı egzersizlerine odaklanır. İstersen ekipmanlı hareketler de mevcut, ama başlamak için sadece telefonun yeterli." },
-      { "q": "Verilerim güvende mi?", "a": "Kamera analizi cihazında çalışır; görüntülerin sunucuya yüklenmez. Sadece antrenman istatistiklerin hesabında saklanır." },
-      { "q": "Ücretsiz mi?", "a": "Temel özellikler ücretsiz. Premium üyelik gelişmiş AI planlarını, sınırsız kamera analizini ve özel rozetleri açar." }
+      {
+        "q": "AI kamera nasıl çalışıyor?",
+        "a": "Telefon kameran hareketlerini gerçek zamanlı analiz eder. Ekranda iskelet çizimi görünmez — sadece temiz kamera görüntüsü ve tekrar sayacı. Formun bozulduğunda sesli ve görsel uyarı alırsın."
+      },
+      {
+        "q": "Salon üyeliği veya ekipman gerekli mi?",
+        "a": "Hayır. GymAI Club vücut ağırlığı egzersizlerine odaklanır. İstersen ekipmanlı hareketler de mevcut, ama başlamak için sadece telefonun yeterli."
+      },
+      {
+        "q": "Verilerim güvende mi?",
+        "a": "Kamera analizi cihazında çalışır; görüntülerin sunucuya yüklenmez. Sadece antrenman istatistiklerin hesabında saklanır."
+      },
+      {
+        "q": "Ücretsiz mi?",
+        "a": "Temel özellikler ücretsiz. Premium üyelik gelişmiş AI planlarını, sınırsız kamera analizini ve özel rozetleri açar."
+      }
     ]
   },
   "footer": {
     "tagline": "Yapay zekâ destekli biyomekanik fitness kulübü. Formunu çözümle, sınırlarını aş.",
     "product": "ÜRÜN",
-    "product_links": { "features": "Özellikler", "app": "Uygulama", "how": "Nasıl Çalışır" },
+    "product_links": {
+      "features": "Özellikler",
+      "app": "Uygulama",
+      "how": "Nasıl Çalışır"
+    },
     "company": "KURUMSAL",
-    "company_links": { "about": "Hakkımızda", "privacy": "Gizlilik", "contact": "İletişim" },
+    "company_links": {
+      "about": "Hakkımızda",
+      "privacy": "Gizlilik",
+      "contact": "İletişim"
+    },
     "copyright": "© 2026 GymAI Club · AI Biomechanics Club. Tüm hakları saklıdır."
   }
 }

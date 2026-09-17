@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import { t, type Lang } from '../i18n/utils';
-import homeShot from '../assets/screenshots/home.png';
+import cameraShot from '../assets/screenshots/camera.png';
 
 interface Props {
   lang: Lang;
@@ -34,7 +34,7 @@ const { lang } = Astro.props;
   <div style="position:relative; z-index:2; display:flex; justify-content:center; transform:translateY(-10px);">
     <div style="position:absolute; width:340px; height:340px; background:radial-gradient(circle, rgba(215,255,63,.22), transparent 62%); animation:gaiwGlow 4s ease-in-out infinite;"></div>
     <div style="position:relative; animation:gaiwFloat 6s ease-in-out infinite;">
-      <div class="phone-shell"><div class="screen"><Image src={homeShot} alt={t(lang, 'showcase.slides.0.title')} width={290} densities={[1, 2, 3]} /></div></div>
+      <div class="phone-shell"><div class="screen"><Image src={cameraShot} alt={t(lang, 'showcase.slides.4.title')} width={320} densities={[1, 2, 3]} /></div></div>
     </div>
   </div>
 </header>

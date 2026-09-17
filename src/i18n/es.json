@@ -85,7 +85,7 @@
         "desc": "18 ejercicios con músculos objetivo y niveles de dificultad. Empieza con la cámara de IA en un solo toque."
       },
       {
-        "img": "plans-tr",
+        "img": "profile",
         "kicker": "TUS PLANES",
         "title": "Perfil",
         "desc": "Sigue tu programa semanal, marca tus días y observa tu progreso. Cada plan está hecho para ti."
@@ -95,6 +95,12 @@
         "kicker": "SEGUIMIENTO IA EN VIVO",
         "title": "Cámara inteligente",
         "desc": "Tu cámara con IA analiza tu movimiento en tiempo real, cuenta tus repeticiones y corrige tu forma al instante."
+      },
+      {
+        "img": "camera-setup",
+        "kicker": "CONFIGURACIÓN EN SEGUNDOS",
+        "title": "Configuración de la cámara",
+        "desc": "La app te muestra dónde colocar el teléfono y cómo situarte, para que la IA lea cada repetición correctamente desde la primera serie."
       }
     ]
   },

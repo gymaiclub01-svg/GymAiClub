@@ -4,8 +4,9 @@ import { t, type Lang } from '../i18n/utils';
 import homeShot from '../assets/screenshots/home.png';
 import plansShot from '../assets/screenshots/plans.png';
 import libraryShot from '../assets/screenshots/library.png';
-import plansTrShot from '../assets/screenshots/plans-tr.png';
+import profileShot from '../assets/screenshots/profile.png';
 import cameraShot from '../assets/screenshots/camera.png';
+import cameraSetupShot from '../assets/screenshots/camera-setup.png';
 
 interface Props {
   lang: Lang;
@@ -16,8 +17,9 @@ const images: Record<string, ImageMetadata> = {
   home: homeShot,
   plans: plansShot,
   library: libraryShot,
-  'plans-tr': plansTrShot,
+  profile: profileShot,
   camera: cameraShot,
+  'camera-setup': cameraSetupShot,
 };
 
 type Slide = { img: string; kicker: string; title: string; desc: string };
@@ -43,7 +45,7 @@ const captions = slides.map(({ kicker, title, desc }) => ({ kicker, title, desc 
             <Image
               src={images[s.img]}
               alt={s.title}
-              width={300}
+              width={340}
               densities={[1, 2, 3]}
               class={i === 0 ? 'on' : ''}
               data-slide-img
