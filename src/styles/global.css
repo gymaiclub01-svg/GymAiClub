@@ -69,11 +69,6 @@ h1 .g{ color:var(--color-brand-green); }
 .store-btn{ display:flex; align-items:center; gap:11px; padding:14px 22px; border-radius:14px; }
 .store-btn small{ display:block; font-size:10px; font-weight:600; opacity:.7; }
 .store-btn strong{ display:block; font-size:16px; font-weight:700; font-family:var(--font-heading); }
-.soon-note{ display:flex; align-items:center; font-size:13px; font-weight:500; color:var(--color-brand-t3); }
-.stats{ display:flex; gap:30px; margin-top:40px; }
-.stats .num{ font-family:var(--font-heading); font-size:26px; font-weight:700; }
-.stats .lbl{ font-size:13px; color:var(--color-brand-t2); font-weight:500; }
-.stats .sep{ width:1px; background:var(--color-brand-line); }
 .phone-shell{ width:320px; max-width:100%; border-radius:26px; overflow:hidden; box-shadow:0 40px 90px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.06), 0 0 70px rgba(215,255,63,.10); }
 .phone-shell .screen{ border-radius:26px; overflow:hidden; background:#24262A; }
 .phone-shell img{ width:100%; }

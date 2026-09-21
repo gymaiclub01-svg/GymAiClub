@@ -143,10 +143,6 @@ Icerigi:
 - Ana baslik
 - Aciklama metni
 - App Store butonu
-- Istatistikler:
-  - 18+ egzersiz
-  - %97 form dogrulugu
-  - 4.9 kullanici puani
 - Telefon mockup icinde `home.png` uygulama ekran goruntusu
 
 Not: App Store butonu gercek store URL'ine (`src/config.ts` > `APP_STORE_URL`) bagli. Android surumu hazir olmadigi icin Google Play butonu kaldirildi.

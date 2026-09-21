@@ -16,16 +16,7 @@
     "title_2": "zekâ",
     "title_accent": "çözümlesin.",
     "lead": "GymAI Club, kameran üzerinden hareketlerini gerçek zamanlı analiz eder, formunu düzeltir ve sana özel antrenman planları oluşturur. Ekipman yok, salon yok — sadece sen ve AI koçun.",
-    "download_label": "İNDİR",
-    "android_soon": "Android sürümü çok yakında.",
-    "stats": {
-      "exercises_value": "18+",
-      "exercises_label": "Egzersiz",
-      "accuracy_value": "%97",
-      "accuracy_label": "Form doğruluğu",
-      "rating_value": "4.9",
-      "rating_label": "Kullanıcı puanı"
-    }
+    "download_label": "İNDİR"
   },
   "marquee": [
     "GERÇEK ZAMANLI FORM ANALİZİ",
@@ -129,8 +120,7 @@
   "cta": {
     "title": "AI koçun seni bekliyor.",
     "sub": "Bugün indir, ilk antrenmanını yapay zekâyla tamamla.",
-    "download_label": "İNDİR",
-    "android_soon": "Android sürümü çok yakında."
+    "download_label": "İNDİR"
   },
   "faq": {
     "kicker": "SSS",

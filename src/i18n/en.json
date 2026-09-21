@@ -16,16 +16,7 @@
     "title_2": "your",
     "title_accent": "every rep.",
     "lead": "GymAI Club analyzes your movement in real time through your camera, corrects your form and builds workout plans made just for you. No equipment, no gym — just you and your AI coach.",
-    "download_label": "DOWNLOAD ON",
-    "android_soon": "Android version coming soon.",
-    "stats": {
-      "exercises_value": "18+",
-      "exercises_label": "Exercises",
-      "accuracy_value": "97%",
-      "accuracy_label": "Form accuracy",
-      "rating_value": "4.9",
-      "rating_label": "User rating"
-    }
+    "download_label": "DOWNLOAD ON"
   },
   "marquee": [
     "REAL-TIME FORM ANALYSIS",
@@ -129,8 +120,7 @@
   "cta": {
     "title": "Your AI coach is waiting.",
     "sub": "Download today and finish your first workout with AI.",
-    "download_label": "DOWNLOAD ON",
-    "android_soon": "Android version coming soon."
+    "download_label": "DOWNLOAD ON"
   },
   "faq": {
     "kicker": "FAQ",

@@ -16,16 +16,7 @@
     "title_2": "cada",
     "title_accent": "repetición.",
     "lead": "GymAI Club analiza tus movimientos en tiempo real a través de la cámara, corrige tu técnica y crea planes de entrenamiento hechos para ti. Sin equipo, sin gimnasio: solo tú y tu entrenador con IA.",
-    "download_label": "DESCARGA EN",
-    "android_soon": "Versión para Android muy pronto.",
-    "stats": {
-      "exercises_value": "18+",
-      "exercises_label": "Ejercicios",
-      "accuracy_value": "97%",
-      "accuracy_label": "Precisión de técnica",
-      "rating_value": "4.9",
-      "rating_label": "Valoración de usuarios"
-    }
+    "download_label": "DESCARGA EN"
   },
   "marquee": [
     "ANÁLISIS DE TÉCNICA EN TIEMPO REAL",
@@ -129,8 +120,7 @@
   "cta": {
     "title": "Tu entrenador con IA te espera.",
     "sub": "Descárgala hoy y completa tu primer entrenamiento con IA.",
-    "download_label": "DESCARGA EN",
-    "android_soon": "Versión para Android muy pronto."
+    "download_label": "DESCARGA EN"
   },
   "faq": {
     "kicker": "PREGUNTAS",
