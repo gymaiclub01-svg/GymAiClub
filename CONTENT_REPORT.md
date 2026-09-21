@@ -142,14 +142,14 @@ Icerigi:
 - Badge: AI destekli fitness kocu mesaji
 - Ana baslik
 - Aciklama metni
-- App Store ve Google Play butonlari
+- App Store butonu
 - Istatistikler:
   - 18+ egzersiz
   - %97 form dogrulugu
   - 4.9 kullanici puani
 - Telefon mockup icinde `home.png` uygulama ekran goruntusu
 
-Not: App Store ve Google Play butonlari simdilik `#download` alanina gidiyor; gercek store linkleri henuz bagli degil.
+Not: App Store butonu gercek store URL'ine (`src/config.ts` > `APP_STORE_URL`) bagli. Android surumu hazir olmadigi icin Google Play butonu kaldirildi.
 
 ### `src/components/Marquee.astro`
 
@@ -216,9 +216,9 @@ Icerigi:
 - Logo/ikon
 - "AI kocun seni bekliyor." basligi
 - Kisa indirme metni
-- App Store ve Google Play butonlari
+- App Store butonu
 
-Not: Bu butonlar da simdilik `#top` linkine gidiyor; gercek store linkleri eklenmeli.
+Not: Bu buton da ayni `APP_STORE_URL` degerini kullaniyor.
 
 ### `src/components/Faq.astro`
 
@@ -392,7 +392,7 @@ Sitenin ana pazarlama mesajlari:
 
 ## Eksik veya Tamamlanmasi Gereken Noktalar
 
-- App Store ve Google Play butonlari gercek store URL'lerine bagli degil.
+- Google Play butonlari kaldirildi; Android yayinlandiginda geri eklenmeli.
 - Footer'daki `Hakkimizda`, `Gizlilik`, `Iletisim` linkleri gercek sayfalara gitmiyor.
 - `splash.png` asset'i mevcut ama kullanilmiyor.
 - README hala Astro starter template icerigi; projeye ozel README yazilmamis.

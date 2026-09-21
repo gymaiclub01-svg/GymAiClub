@@ -17,6 +17,7 @@
     "title_accent": "çözümlesin.",
     "lead": "GymAI Club, kameran üzerinden hareketlerini gerçek zamanlı analiz eder, formunu düzeltir ve sana özel antrenman planları oluşturur. Ekipman yok, salon yok — sadece sen ve AI koçun.",
     "download_label": "İNDİR",
+    "android_soon": "Android sürümü çok yakında.",
     "stats": {
       "exercises_value": "18+",
       "exercises_label": "Egzersiz",
@@ -128,7 +129,8 @@
   "cta": {
     "title": "AI koçun seni bekliyor.",
     "sub": "Bugün indir, ilk antrenmanını yapay zekâyla tamamla.",
-    "download_label": "İNDİR"
+    "download_label": "İNDİR",
+    "android_soon": "Android sürümü çok yakında."
   },
   "faq": {
     "kicker": "SSS",
