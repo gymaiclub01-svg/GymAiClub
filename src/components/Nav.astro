@@ -5,8 +5,9 @@ import { t, localePath, type Lang } from '../i18n/utils';
 
 interface Props {
   lang: Lang;
+  slug?: string;
 }
-const { lang } = Astro.props;
+const { lang, slug } = Astro.props;
 const home = localePath(lang);
 ---
 <nav>
@@ -23,7 +24,7 @@ const home = localePath(lang);
         <a href={`${home}#faq`}>{t(lang, 'nav.faq')}</a>
         <a href={`${home}#contact`}>{t(lang, 'nav.contact')}</a>
       </div>
-      <LanguageSwitcher lang={lang} />
+      <LanguageSwitcher lang={lang} slug={slug} />
     </div>
   </div>
 </nav>

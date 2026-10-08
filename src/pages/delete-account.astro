@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+---
+<BaseLayout
+  lang="en"
+  title="GymAI Club — Account and Data Deletion"
+  description="You can delete your GymAI Club account and all data linked to it at any time."
+>
+  <Nav lang="en" slug="delete-account" />
+  <main class="info-page wrap">
+    <section class="info-hero">
+      <h1>GymAI Club — Account and Data Deletion</h1>
+      <p>You can delete your GymAI Club account and all data linked to it at any time.</p>
+    </section>
+
+    <section class="info-card legal" aria-label="GymAI Club — Account and Data Deletion">
+      <h2>From the app (fastest)</h2>
+      <ol>
+        <li>Open the GymAI Club app and sign in.</li>
+        <li>Go to Settings.</li>
+        <li>Tap "Delete My Account and Data".</li>
+        <li>After your sign-in method is verified again, your account and data are deleted immediately.</li>
+      </ol>
+
+      <h2>If you no longer have the app</h2>
+      <p>Send an email with the subject "Account deletion request" to <a href="mailto:gymaiclub01@gmail.com?subject=Account%20deletion%20request">gymaiclub01@gmail.com</a> from the email address registered to your account. After verifying your identity, we will delete your account and data within 30 days and confirm by email.</p>
+
+      <h2>Data that is deleted</h2>
+      <ul>
+        <li>Your account and sign-in details</li>
+        <li>Your profile (name, date of birth, gender, height, weight, goals)</li>
+        <li>Your workouts, plans, streaks and badges</li>
+        <li>Your water, nutrition and activity records</li>
+        <li>Your yoga sessions</li>
+        <li>Your notification records and notification settings</li>
+        <li>Your profile photo</li>
+        <li>Personal data related to the AI calorie estimate feature (usage counter and votes)</li>
+      </ul>
+
+      <h2>Data that is kept</h2>
+      <p>Your camera feed is never sent to our servers; rep counting runs entirely on your device. After deletion, no personal data linked to your account is kept.</p>
+
+      <p>More details: <a href="/privacy/">Privacy Policy</a></p>
+    </section>
+  </main>
+  <Footer lang="en" />
+</BaseLayout>

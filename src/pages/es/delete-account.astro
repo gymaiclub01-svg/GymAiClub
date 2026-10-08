@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout
+  lang="es"
+  title="GymAI Club — Eliminación de cuenta y datos"
+  description="Puedes eliminar tu cuenta de GymAI Club y todos los datos vinculados a ella en cualquier momento."
+>
+  <Nav lang="es" slug="delete-account" />
+  <main class="info-page wrap">
+    <section class="info-hero">
+      <h1>GymAI Club — Eliminación de cuenta y datos</h1>
+      <p>Puedes eliminar tu cuenta de GymAI Club y todos los datos vinculados a ella en cualquier momento.</p>
+    </section>
+
+    <section class="info-card legal" aria-label="GymAI Club — Eliminación de cuenta y datos">
+      <h2>Desde la aplicación (la forma más rápida)</h2>
+      <ol>
+        <li>Abre la aplicación GymAI Club e inicia sesión.</li>
+        <li>Ve a Ajustes.</li>
+        <li>Toca "Eliminar mi cuenta y datos".</li>
+        <li>Tras verificar de nuevo tu método de inicio de sesión, tu cuenta y tus datos se eliminan de inmediato.</li>
+      </ol>
+
+      <h2>Si ya no tienes la aplicación</h2>
+      <p>Envía un correo con el asunto "Solicitud de eliminación de cuenta" a <a href="mailto:gymaiclub01@gmail.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta">gymaiclub01@gmail.com</a> desde la dirección de correo registrada en tu cuenta. Tras verificar tu identidad, eliminaremos tu cuenta y tus datos en un plazo de 30 días y te lo confirmaremos por correo.</p>
+
+      <h2>Datos que se eliminan</h2>
+      <ul>
+        <li>Tu cuenta y tus datos de inicio de sesión</li>
+        <li>Tu perfil (nombre, fecha de nacimiento, género, altura, peso, objetivos)</li>
+        <li>Tus entrenamientos, planes, rachas e insignias</li>
+        <li>Tus registros de agua, nutrición y actividad</li>
+        <li>Tus sesiones de yoga</li>
+        <li>Tus registros y ajustes de notificaciones</li>
+        <li>Tu foto de perfil</li>
+        <li>Los datos personales de la función de estimación de calorías con IA (contador de uso y votos)</li>
+      </ul>
+
+      <h2>Datos que se conservan</h2>
+      <p>La imagen de tu cámara nunca se envía a nuestros servidores; el conteo de repeticiones se realiza por completo en tu dispositivo. Tras la eliminación, no se conserva ningún dato personal vinculado a tu cuenta.</p>
+
+      <p>Más información: <a href="/es/privacy/">Política de privacidad</a></p>
+    </section>
+  </main>
+  <Footer lang="es" />
+</BaseLayout>

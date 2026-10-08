@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout
+  lang="tr"
+  title="GymAI Club — Hesap ve Veri Silme"
+  description="GymAI Club hesabını ve hesabına bağlı tüm verileri istediğin zaman silebilirsin."
+>
+  <Nav lang="tr" slug="delete-account" />
+  <main class="info-page wrap">
+    <section class="info-hero">
+      <h1>GymAI Club — Hesap ve Veri Silme</h1>
+      <p>GymAI Club hesabını ve hesabına bağlı tüm verileri istediğin zaman silebilirsin.</p>
+    </section>
+
+    <section class="info-card legal" aria-label="GymAI Club — Hesap ve Veri Silme">
+      <h2>Uygulama içinden (en hızlı yol)</h2>
+      <ol>
+        <li>GymAI Club uygulamasını aç ve giriş yap.</li>
+        <li>Ayarlar sekmesine git.</li>
+        <li>"Hesabımı ve Verilerimi Sil" seçeneğine dokun.</li>
+        <li>Giriş yönteminin yeniden doğrulanmasının ardından hesabın ve verilerin hemen silinir.</li>
+      </ol>
+
+      <h2>Uygulama elinde değilse</h2>
+      <p>Hesabına kayıtlı e-posta adresinden <a href="mailto:gymaiclub01@gmail.com?subject=Hesap%20silme%20talebi">gymaiclub01@gmail.com</a> adresine "Hesap silme talebi" konulu bir e-posta gönder. Kimliğini doğruladıktan sonra hesabını ve verilerini 30 gün içinde sileriz ve sana e-postayla bildiririz.</p>
+
+      <h2>Silinen veriler</h2>
+      <ul>
+        <li>Hesabın ve giriş bilgilerin</li>
+        <li>Profil bilgilerin (ad, doğum tarihi, cinsiyet, boy, kilo, hedefler)</li>
+        <li>Antrenman, plan, seri ve rozet kayıtların</li>
+        <li>Su, beslenme ve aktivite kayıtların</li>
+        <li>Yoga seansların</li>
+        <li>Bildirim kayıtların ve bildirim ayarların</li>
+        <li>Profil fotoğrafın</li>
+        <li>Yapay zekâ ile kalori tahmini özelliğine ait kişisel verilerin (kullanım sayacı ve oylar)</li>
+      </ul>
+
+      <h2>Saklanan veriler</h2>
+      <p>Kamera görüntün hiçbir zaman sunucularımıza gönderilmez; tekrar sayımı tamamen cihazında yapılır. Silme işleminden sonra hesabına bağlı kişisel veri saklanmaz.</p>
+
+      <p>Ayrıntılar için: <a href="/tr/privacy/">Gizlilik Politikası</a></p>
+    </section>
+  </main>
+  <Footer lang="tr" />
+</BaseLayout>

@@ -146,6 +146,8 @@ h2{ font-family:var(--font-heading); font-size:44px; font-weight:700; letter-spa
 .legal h3{ font-family:var(--font-heading); font-size:16px; font-weight:700; color:var(--color-brand-t1); margin-top:22px; }
 .legal p{ font-size:15px; line-height:1.7; color:var(--color-brand-t2); font-weight:500; margin-top:10px; }
 .legal ul{ margin-top:10px; padding-left:20px; }
+.legal ol{ margin-top:10px; padding-left:22px; list-style:decimal; }
+.legal li::marker{ color:var(--color-brand-green); font-weight:700; }
 .legal li{ font-size:15px; line-height:1.7; color:var(--color-brand-t2); font-weight:500; margin-bottom:8px; }
 .legal strong{ color:var(--color-brand-t1); font-weight:700; }
 .legal a{ color:var(--color-brand-green); }

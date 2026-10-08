@@ -1,10 +1,12 @@
 ---
-import { languages, languageFlags, localePath, type Lang } from '../i18n/utils';
+import { languages, languageFlags, localePath, localizedPath, type Lang } from '../i18n/utils';
 
 interface Props {
   lang: Lang;
+  /** Static page slug (e.g. "delete-account"); when set, links go to that page in each locale instead of the homepage */
+  slug?: string;
 }
-const { lang } = Astro.props;
+const { lang, slug } = Astro.props;
 const locales = Object.keys(languages) as Lang[];
 ---
 <details class="lang-switch">
@@ -17,7 +19,7 @@ const locales = Object.keys(languages) as Lang[];
   </summary>
   <div class="lang-menu">
     {locales.map((l) => (
-      <a href={localePath(l)} class={l === lang ? 'active' : ''} aria-current={l === lang ? 'page' : undefined}>
+      <a href={slug ? localizedPath(l, slug) : localePath(l)} class={l === lang ? 'active' : ''} aria-current={l === lang ? 'page' : undefined}>
         <span class="flag">{languageFlags[l]}</span>
         <span>{languages[l]}</span>
       </a>
